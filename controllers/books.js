@@ -1,3 +1,5 @@
+const db = require("../models");
+
 module.exports = {
 	find_all: function(req, res)
 	{
